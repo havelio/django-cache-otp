@@ -10,4 +10,4 @@ install:
   - pip install "Django>=$DJANGO,<${DJANGO}.99"
 
 script:
-- "`which django-admin.py` test django_otp_cache --settings=sms_engine.test_settings --pythonpath=."
+- "`which django-admin.py` test django_otp_cache --settings=django_otp_cache.test_settings --pythonpath=."
