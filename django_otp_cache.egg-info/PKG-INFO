@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
-Name: django-cache-otp
+Name: django-otp-cache
 Version: 0.1
 Summary: one time password based on django cache
-Home-page: https://github.com/havelio/django-cache-otp/
+Home-page: https://github.com/havelio/django-otp-cache/
 Author: havelio
 Author-email: havelioh@gmail.com
 License: MIT
