@@ -1,0 +1,13 @@
+language: python
+
+python:
+  - "3.6"
+
+env:
+  - DJANGO=2.0
+
+install:
+  - pip install "Django>=$DJANGO,<${DJANGO}.99"
+
+script:
+- "`which django-admin.py` test sms_engine --settings=sms_engine.test_settings --pythonpath=."
