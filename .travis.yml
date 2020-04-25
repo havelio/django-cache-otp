@@ -10,4 +10,4 @@ install:
   - pip install "Django>=$DJANGO,<${DJANGO}.99"
 
 script:
-- "`which django-admin.py test django_otp_cache.tests --settings=test_settings --pythonpath=."
+- "django-admin.py test django_otp_cache.tests --settings=test_settings --pythonpath=."
